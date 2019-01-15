@@ -5,6 +5,8 @@ public class MenorPreco {
     int valorTotal;
     int classificacao;
 
+    public MenorPreco(){
+    }
 
     public MenorPreco(String nomehotel, int valorTotal, int classificacao) {
         this.nomehotel = nomehotel;

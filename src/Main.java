@@ -5,15 +5,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Hotel hotel;
+        Hotel hotel=new Hotel();
+        MenorPreco menorPreco=new MenorPreco();
 
         String entradaDeDados="";
         int soma=0;
@@ -21,19 +20,7 @@ public class Main {
         Scanner digitar= new Scanner(System.in);
 
 
-        ArrayList<Hotel> listaHoteisClientesRegular = new ArrayList<Hotel>();
-        listaHoteisClientesRegular.add(new Hotel("Lakewood",3,110,90));
-        listaHoteisClientesRegular.add(new Hotel("Bridgewood",4,160,60));
-        listaHoteisClientesRegular.add(new Hotel("Ridgewood",5,220,150));
-
-        ArrayList<Hotel> listaHoteisClientesReward = new ArrayList<Hotel>();
-        listaHoteisClientesReward.add(new Hotel("Lakewood",3,80,80));
-        listaHoteisClientesReward.add(new Hotel("Bridgewood",4,110,50));
-        listaHoteisClientesReward.add(new Hotel("Ridgewood",5,100,40));
-
         ArrayList<MenorPreco> listaMenorPreco = new ArrayList<MenorPreco>();
-
-
 
         System.out.println("Escolha o tipo de entrada para buscar hotel mais barato:");
         System.out.println("1 : Digitar a busca manualmente");
@@ -49,10 +36,6 @@ public class Main {
             try {
                 String linha;
                 int line = 0;
-                int contaCliente = 0;
-                int contaVendedores = 0;
-                String idvenda = "";
-                String nomevendedor = "";
 
                 File arquivos[];
                 File diretorio = new File("dados/in/");
@@ -78,9 +61,8 @@ public class Main {
 
 
         if(entradasSeparadas[0].equals("Regular")){
-            for (Hotel u : listaHoteisClientesRegular) {
+            for (Hotel u : hotel.hotelRegular()) {
                 for (int i = 1; i <= 3; i++) {
-                    System.out.println("soma fora "+soma);
                     if (entradasSeparadas[i].substring(10, 13).equals("sat") || entradasSeparadas[i].substring(10, 13).equals("sun")) {
                         soma = soma+u.getTxaFimSemana();
                     } else {
@@ -92,7 +74,7 @@ public class Main {
             }
         }
         else{
-            for (Hotel u : listaHoteisClientesReward) {
+            for (Hotel u : hotel.hotelReward()) {
                 for (int i = 1; i <= 3; i++) {
                     if (entradasSeparadas[i].substring(10, 13).equals("sat") || entradasSeparadas[i].substring(10, 13).equals("sun")) {
                         soma += u.getTxaFimSemana();
