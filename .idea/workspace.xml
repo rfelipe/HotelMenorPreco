@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aec8a893-420c-492f-8918-ab64952ad02c" name="Default Changelist" comment="" />
+    <list default="true" id="aec8a893-420c-492f-8918-ab64952ad02c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/modelosTest/MenorPrecoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Reservahotel/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Reservahotel/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Reservahotel/modelos/MenorPreco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Reservahotel/modelos/MenorPreco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelos/MenorPreco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelos/MenorPreco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelosTest/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modelosTest/HotelTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +20,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/modelosTest/HotelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="505">
+              <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#288#295#0" expanded="true" />
+                <element signature="e#386#393#0" expanded="true" />
+                <element signature="e#826#833#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-736">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#555#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modelos/Hotel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="66" column="60" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="60" />
+              <folding>
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -26,41 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modelos/MenorPreco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/modelos/Hotel.java">
+        <entry file="file://$PROJECT_DIR$/src/modelosTest/MenorPrecoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="335">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -75,16 +88,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/modelos/Hotel.java" />
         <option value="$PROJECT_DIR$/src/modelos/MenorPreço.java" />
-        <option value="$PROJECT_DIR$/src/modelos/MenorPreco.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/modelos/HotelTest.java" />
+        <option value="$PROJECT_DIR$/src/modelos/Hotel.java" />
         <option value="$PROJECT_DIR$/src/modelosTest/HotelTest.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/modelos/MenorPreco.java" />
+        <option value="$PROJECT_DIR$/src/modelosTest/MenorPrecoTest.java" />
       </list>
     </option>
   </component>
@@ -94,11 +116,13 @@
     <option name="width" value="1284" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,13 +133,29 @@
             <path>
               <item name="Reservahotel" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reservahotel" type="462c0819:PsiDirectoryNode" />
+              <item name="dados" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reservahotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reservahotel" type="462c0819:PsiDirectoryNode" />
+              <item name="dados" type="462c0819:PsiDirectoryNode" />
+              <item name="in" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reservahotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reservahotel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reservahotel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reservahotel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modelosTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -124,7 +164,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547438704088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547571834080" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -151,13 +191,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MenorPrecoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Reservahotel" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reservahotel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelosTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modelosTest" />
+      <option name="MAIN_CLASS_NAME" value="modelosTest.HotelTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:modelosTest.HotelTest]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,10 +234,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MenorPrecoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Reservahotel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelosTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modelosTest" />
+      <option name="MAIN_CLASS_NAME" value="modelosTest.MenorPrecoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HotelTest" />
+        <item itemvalue="JUnit.MenorPrecoTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.HotelTest (1)" />
+        <item itemvalue="JUnit.HotelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,18 +271,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HotelTest - 2019.01.14 at 01h 10m 41s.xml">
-      <configuration name="HotelTest" configurationId="JUnit" />
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 46m 12s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HotelTest - 2019.01.14 at 02h 05m 24s.xml">
-      <configuration name="HotelTest" configurationId="JUnit" />
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 49m 02s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 51m 22s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 52m 41s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 53m 11s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 54m 38s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 56m 43s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 57m 59s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 14h 59m 40s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenorPrecoTest - 2019.01.15 at 15h 00m 02s.xml">
+      <configuration name="MenorPrecoTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18015873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18253969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,14 +323,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -255,52 +362,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelosTest/HotelTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/modelosTest/HotelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="505">
+          <caret line="39" column="93" selection-start-line="39" selection-start-column="93" selection-end-line="39" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelos/MenorPreco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#288#295#0" expanded="true" />
+            <element signature="e#386#393#0" expanded="true" />
+            <element signature="e#826#833#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modelos/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="66" column="60" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="60" />
           <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelos/MenorPreco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelosTest/MenorPrecoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
