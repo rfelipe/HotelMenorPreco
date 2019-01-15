@@ -1,5 +1,7 @@
 package modelos;
 
+import java.util.ArrayList;
+
 public class MenorPreco {
     String nomehotel;
     int valorTotal;
@@ -46,5 +48,31 @@ public class MenorPreco {
                 ", valorTotal=" + valorTotal +
                 ", classificacao=" + classificacao +
                 '}';
+    }
+
+    public String hotelMenorPreco(ArrayList<MenorPreco>listaMenorPreco){
+
+        int verificamenor=0;
+        String hotelMaisbarato="";
+        int posicao=0;
+        int i=0;
+
+        for (MenorPreco m : listaMenorPreco) {
+
+            if (m.getValorTotal() <= listaMenorPreco.get(posicao).getValorTotal()) {
+                verificamenor = m.getValorTotal();
+                hotelMaisbarato = m.getNomehotel();
+                posicao = i;
+            }
+            if (m.getValorTotal() == listaMenorPreco.get(posicao).getValorTotal()) {
+                if (m.getClassificacao() <= listaMenorPreco.get(posicao).getClassificacao()) {
+                    verificamenor = m.getValorTotal();
+                    hotelMaisbarato = m.getNomehotel();
+                    posicao = i;
+                }
+                i++;
+            }
+        }
+        return hotelMaisbarato;
     }
 }
